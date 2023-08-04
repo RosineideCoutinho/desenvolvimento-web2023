@@ -25,6 +25,8 @@ urlpatterns = [
 
 path('startprojetoueretia/', include('tips.urls')),
 path('startprojetoueretia/', include('login.urls')),
+path('startprojetoueretia/', include('register.urls')),
+
 
 
 ]

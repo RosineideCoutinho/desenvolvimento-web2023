@@ -5,7 +5,18 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 
-def helloworld(request):
-    return HttpResponse('Hello world!')
+def climate(request):
+    return HttpResponse('clima.html')
+
+
+def tips(request):
+    return HttpResponse('dicas.html')
+
+
+def login(request):
+    return HttpResponse('login.html')
+
+def register(request):
+    return HttpResponse('registrar.html')
 
 # Create your views here.

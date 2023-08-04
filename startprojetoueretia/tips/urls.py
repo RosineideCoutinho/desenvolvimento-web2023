@@ -1,12 +1,8 @@
+
 from django.urls import path
 from.import views
 
-#my
-
-#my
-
 urlpatterns = [
-    path('climate', views.climate),
+    path('tips', views.tips),
 
 ]
-
