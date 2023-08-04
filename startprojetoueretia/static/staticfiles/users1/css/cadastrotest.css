@@ -1,0 +1,20 @@
+
+body {
+width: 100%;
+}
+.container {
+max-width: 100%;
+}
+form {
+width: 100%;
+}
+input {
+width: 100%;
+}
+&lt;/style&gt;
+&lt;div class="container"&gt;
+&lt;h2&gt;Cadastro de E-mail de Usuário&lt;/h2&gt;
+&lt;form&gt;
+&lt;div class="form-group"&gt;
+&lt;label for="username"&gt;Nome de Usuário:&lt;/label&gt;
+&lt;input type="text" class="form-control" id
