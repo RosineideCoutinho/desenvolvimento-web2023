@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/startprojetoueretia/static/tipsstatic" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/startprojetoueretia/static/usersstatic" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/startprojetoueretia/static/staticfiles" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/startprojetoueretia/static/staticfiles/tips1/image" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />
