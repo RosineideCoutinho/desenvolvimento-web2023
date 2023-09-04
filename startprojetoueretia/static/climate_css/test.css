@@ -1,0 +1,153 @@
+*{
+padding: 0;
+margin: 0;
+font-family: "ubuntu", sans-serif;
+
+
+}
+
+.form {
+padding: 10px;
+background-color: #fff;
+border-radius: 1rem;
+margin: 20px auto;
+width: 30%;
+background-size: cover;
+}
+
+h3 {
+padding: 10px;
+font-size: 20px;
+color: #4f4f4f;
+text-align: center;
+}
+
+#city {
+color: #000000;
+}
+
+
+
+
+
+.body{
+background-color: #f1f1f1;
+color: #f1f1f1;
+display: flex;
+justify-content: center;
+align-itens: center;
+height: 0;
+width: 0;
+
+
+}
+
+
+.hide{
+display: nome;
+
+}
+
+.container {
+background-color: #4682b4;
+box-shadow: rgba(0,0,0,0,24) 0px, 3px,8px;
+padding: 2rem;
+color: #c0cccc;
+border-radius: 1rem;
+margin: 30px auto;
+width: 30%;
+
+
+
+}
+
+// dia 24/08/2023 opcional
+
+.form{
+display:flex;
+
+}
+.form input{
+padding:0.8rem;
+border: nome;
+flex: 1;
+border-radius: 4px;
+}
+
+.form button {
+padding: 0.8rem;
+min-width: 50px;
+margin-left: 8px;
+background-color: #8dd0f5;
+color: #FFF;
+border: none;
+cursor:pointer; // para dar efeito visual de click
+
+}
+
+/* Clima*/
+
+#weather-date{
+border-top: 1px solid #fff;
+margin-top: 1.5rem;
+padding-top: 1.5rem;
+text-align: center;
+
+}
+
+#weather-date h2{
+
+display: flex;
+justify-content: center;
+align-itens: center;
+margin-botton: 0.6rem;
+
+}
+#weather-date H2 1 {
+   font-size: 1rem;
+
+}
+
+#weather- date span {
+   margin: 0.6rem;
+
+
+}
+
+#country{
+height: 15px;
+
+}
+
+#description-container {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0.6rem 0;
+
+
+}
+
+#details-container{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+#details-container #moisture{
+border-right: 1px solid #fff;
+margin: 0.6rem;
+padding: 0.6rem ;
+
+
+
+}
+
+
+
+
+
+
+

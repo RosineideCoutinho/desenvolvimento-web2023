@@ -20,3 +20,4 @@ def register(request):
     return HttpResponse('registrar.html')
 
 # Create your views here.
+from django.shortcuts import render

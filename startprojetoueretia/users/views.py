@@ -12,7 +12,7 @@ def tips(request):
     return HttpResponse('dicas.html')
 
 
-def login(request):
+def users(request):
     return HttpResponse('login.html')
 
 def register(request):

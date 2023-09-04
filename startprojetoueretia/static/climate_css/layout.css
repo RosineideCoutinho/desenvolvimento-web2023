@@ -1,0 +1,42 @@
+
+body {
+font-family: Arial, sans-serif;
+}
+
+.content {
+width: 70%;
+float: left;
+}
+
+header, nav, aside, footer {
+background-color: #f2f2f2;
+padding: 20px;
+margin-bottom: 20px;
+}
+
+header, footer {
+text-align: center;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+nav ul li {
+display: inline;
+}
+
+nav ul li a {
+text-decoration: none;
+padding: 10px;
+margin-right: 10px;
+}
+
+aside {
+width: 25%;
+float: right;
+}
+

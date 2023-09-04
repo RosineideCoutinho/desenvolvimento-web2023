@@ -24,9 +24,13 @@ urlpatterns = [
     path('startprojetoueretia/', include('climate.urls')),
 
 path('startprojetoueretia/', include('tips.urls')),
-path('startprojetoueretia/', include('login.urls')),
+path('startprojetoueretia/', include('users.urls')),
 path('startprojetoueretia/', include('register.urls')),
 
+    # URLs abaixo somente para teste
+
+path('startprojetoueretia/', include('')),
+path('startprojetoueretia/', include('')),
 
 
 ]
