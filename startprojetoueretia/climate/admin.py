@@ -4,7 +4,7 @@ from django.contrib import admin
 from django.contrib import admin
 from .models import Forecast
 
+#Register climate data here
 
 admin.site.register(Forecast)
-
 

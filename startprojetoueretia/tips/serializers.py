@@ -1,10 +1,10 @@
 from rest_framework import serializers
-from .models import suggestion
+from .models import Suggestion
 
 
-class suggestionSerializer(serializers.ModelSerializer):
+class SuggestionSerializer(serializers.ModelSerializer):
     class Meta:
-        model = suggestion
+        model = Suggestion
         fields = ['article']
 
 

@@ -1,10 +1,10 @@
 from rest_framework import serializers
-from .models import login
+from .models import Login
 
 
-class loginSerializer(serializers.ModelSerializer):
+class LoginSerializer(serializers.ModelSerializer):
     class Meta:
-        model = login
+        model = Login
         fields = ['nome', 'email', 'password']
 
 

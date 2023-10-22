@@ -6,18 +6,18 @@ from django.http import HttpResponse
 
 
 def climate(request):
-    return HttpResponse('clima.html')
+    return render(request, 'clima.html')
 
 
 def tips(request):
-    return HttpResponse('dicas.html')
+    return render(request, 'dicas.html')
 
 
 def login(request):
-    return HttpResponse('login.html')
+    return render(request, 'login.html')
 
 def register(request):
-    return HttpResponse('registrar.html')
+    return render(request, 'registrar.html')
 
 # Create your views here.
 from django.shortcuts import render

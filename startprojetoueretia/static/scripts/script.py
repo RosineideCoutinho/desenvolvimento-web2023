@@ -18,7 +18,7 @@ from climate1.scripts.climate import searchBtn, cityInput, windElement, cityElem
     weatherIconElement, humidityElement
 
 # Variáveis e selecção de elementos
-apikey = 'a6cf52a7b220498046a56aca5754e809'
+apikey = ''
 apiCountryURL = 'https://flagsapi.com/BE/flat/64.png'
 city_input = document.querySelector('#city-input')
 search_btn = document.querySelector('#search')
@@ -30,7 +30,7 @@ country_element = document.querySelector('#acoutry')
 humidity_element = document.querySelector('#umidity')
 wind_element = document.querySelector('#wind span')
 # Funções
-# Funções
+# Funçõesatualiza
 
 def getweatherDate(city):
 apiweatherURL = f'https://api.openweathermap.org/data/2.5/weather?q={city}&amp;units=metric&amp;appid={apikey}&amp;lang-pt'

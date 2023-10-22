@@ -6,7 +6,7 @@ from.import views
 #my
 
 urlpatterns = [
-    path('clima', views.clima),
+    path('clima', views.climate),
 
 
 ]

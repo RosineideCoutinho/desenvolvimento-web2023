@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import suggestion
+from .models import Suggestion
 
 
-admin.site.register(suggestion)
+admin.site.register(Suggestion)
