@@ -3,7 +3,7 @@ from .serializers import LoginSerializer
 from .models import Login
 
 
-class loginViewSet(viewsets.ModelViewSet):
+class LoginViewSet(viewsets.ModelViewSet):
     model = Login
     serializer_class = LoginSerializer
     queryset = Login.objects.all()
