@@ -15,18 +15,11 @@ def start(request):
 
 
 
-def climate(request):
-    return HttpResponse('clima.html')
 
 
 def tips(request):
     return HttpResponse('dicas.html')
 
 
-def login(request):
-    return HttpResponse('login.html')
-
-def register(request):
-    return HttpResponse('registrar.html')
 
 # Create your views here.
